@@ -4,14 +4,27 @@ body{
   padding-left: 0.5rem;
 }
 
-.Tablebody{
-  background-color: aliceblue;
+.darkmodetext{
+  padding-left: 55rem;
+  font-size: medium;
+  font-weight: bold;
+  width: 1rem;
+  border: 1px solid green
 }
+.form-check-input{
+  height: 1.5rem;
+  min-width: 3rem;
+  justify-content: space-between;
+}
+
 .searchbar{
-  width: 50%;
+  width: 94%;
   margin-top: 1rem;
   margin-left: 1.5rem;
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .srchinp{
