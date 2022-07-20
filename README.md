@@ -1,3 +1,5 @@
+Firebase URL: https://grow-simplee-test-480ad.web.app/
+
 Frameworks/Libraries used:
 1. ReactJs
 2. Bootstrap Table
