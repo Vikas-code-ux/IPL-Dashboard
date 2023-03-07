@@ -3,7 +3,7 @@ This web app is built by me using ReactJS and Bootstrap table. This web app allo
 
 ##  Home Page
 
-![Home Page](/README/HomePage.JPG)
+![HomePage](/README/HomePage.JPG)
 
 ## Technologies used
 
