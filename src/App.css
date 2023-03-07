@@ -1,9 +1,11 @@
 body{
   font-size:smaller;
-  width: 99.1%;
+  width: 100%;
   padding-left: 0.5rem;
 }
-
+.App{
+  width: 100%;
+}
 .darkmodetext{
   padding-left: 55rem;
   font-size: medium;
@@ -11,20 +13,65 @@ body{
   width: 1rem;
   border: 1px solid green
 }
-.form-check-input{
-  height: 1.5rem;
-  min-width: 3rem;
-  justify-content: space-between;
-}
-
-.searchbar{
-  width: 94%;
-  margin-top: 1rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
+.switchbtn{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  min-width: 200px;
+  padding-left: 40px;
+  padding-top: 4px;
+  /* padding-right: 50px; */
+}
+.textmode{
+  padding-top: 3px;
+  padding-right: 15px;
+  font-weight: bolder;
+  font-size:large;
+}
+
+.form-check-input{
+  height: 1.5rem;
+  min-width: 6rem;
+  /* justify-content: space-between; */
+}
+.searchinput{
+  width: 90%;
+  height: 50px;
+  /* padding-top: 5px; */
+  /* padding-right: 5px; */
+  display: flex;
+}
+.sinput{
+  border-radius: 6px;
+  height: 40px;
+  padding-right: 5px;
+  padding-left: 9px;
+}
+input::placeholder{
+  font-size: 16px;
+}
+/* table.table-bordered{
+  border:1px solid black;
+} */
+.searchbtn{
+  padding-left: 15px;
+}
+.expcsv{
+  text-align: center;
+  padding-bottom: 25px;
+  margin-top: auto;
+}
+.searchbar{
+  width: 100%;
+  margin-top: 1rem;
+  padding-left: 15px;
+  padding-right: 10px;
+  /* margin-left: 1.5rem; */
+  padding-top: 2px;
+  padding-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  background-color: whitesmoke;
 }
 
 .srchinp{
